@@ -1,5 +1,6 @@
 import './features.css';
 import { Link, useNavigate } from "react-router-dom";
+import Img from "../images/navigate.jpg"
 // import { Link, useLocation } from 'react-router-dom';
 // import { useState } from 'react'; // Add useState import
 // import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@material-ui/core';
@@ -26,7 +27,7 @@ export default function Features(props) {
       <section className="features"> {/* Replace 'class' with 'className' */}
         <div className="container">
           <div className="features-img">
-            <img src="./images/reached.jpg" alt="features bg img" />
+            <img src={Img} alt="features bg img"/>
           </div>
           <div className="features-text">
             <h2>{props.event}</h2>
@@ -34,7 +35,7 @@ export default function Features(props) {
             <p>{props.details}</p>
 
             <Link to={"https://shimmering-kelpie-53c504.netlify.app/"}>
-            <button >{props.name}</button>
+            <button className='btn'>{props.name}</button>
 		        </Link>
             
             

@@ -1,5 +1,5 @@
 import './navbar.css';
-// import ""
+import Logo from "../images/logo.jpg";
 
 export default function Navbar() {
   const handleLogout = () => {
@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div>
       <header>
-    <a href="#" class="logo"><img src="../images/logo.jpg" alt="Logo" /></a>
+    <a href="#" class="logo"><img src={Logo} alt="Logo" /></a>
     <div class="bx bx-menu" id="menu-icon"></div>
 
     <ul class="navbar">
@@ -19,7 +19,7 @@ export default function Navbar() {
       <li><a href="#Reach">Reached</a></li>
       <li><a href="#About">About</a></li>
       <li><a href="#Contact">Contact</a></li>
-      <li><button onClick={handleLogout}>
+      <li><button className ="logout" onClick={handleLogout}>
           Logout
         </button></li>
     </ul>

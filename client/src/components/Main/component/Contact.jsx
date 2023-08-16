@@ -18,7 +18,7 @@ export default function Contact() {
       <a href="">Terms of Use</a>
       <a href="">Our Project</a>
     </div>
-    <p>copyright &#169; Muskan All Rights Reserved </p>
+    <p>copyright &#169; Travelong All Rights Reserved </p>
    </section>
     </div>
   )

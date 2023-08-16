@@ -3,18 +3,25 @@
     flex-wrap: wrap;
     background: #ebdbc8;
     gap: 1.5rem;
+    background: linear-gradient(to right ,#ea5dbc ,#1a237eb3);
 }
 .about-img{
     flex: 1 1 17rem;
 }
 .about-text{
-    flex: 1 1 17rem;   
+    flex: 1 1 17rem;  
+    color: white; 
 }
-.about-text h1{
+.headColour{
+    color: #fff;
+}
+.about-text h1 {
     font-size: 2rem;
-    color: var(--second-color);
+    color: white;
 }
+
 .about-text p{
     margin: 0.5rem 0 1rem;
     text-align: justify;
+    color: white;
 }
